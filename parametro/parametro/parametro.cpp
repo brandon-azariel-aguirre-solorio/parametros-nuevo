@@ -19,8 +19,10 @@ int main()
 	system("pause");
 	return 0;
 }
-void intercambio()
+void intercambio(int* x,int* y)
 {
-	
-
+	int z;
+	z = *x;
+	*x = *y;
+	*y = z;
 }
